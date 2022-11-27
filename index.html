@@ -7,60 +7,60 @@
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
 
 <!--Add links for studio,contacts-->
-    <header>
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li><a href="./index.html">Studio</a></li>
-                <li><a href=./portfolio.html>Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-        </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:110001111111">+11 (000) 111-11-11</a></li>
+<header>
+    <nav>
+        <a href="./index.html" class="webstudio"> <span class="web">Web</span>Studio</a>
+        <ul class="site-nav list">
+            <li><a href="./index.html" class="link-site">Studio</a></li>
+            <li><a href=./portfolio.html class="link-site">Portfolio</a></li>
+            <li><a href="#" class="link-site">Contacts</a></li>
         </ul>
-    </header>
+    </nav>
+    <ul class="auth-nav list">
+        <li><a href="mailto:info@devstudio.com" class="link-auth">info@devstudio.com</a></li>
+        <li><a href="tel:110001111111" class="link-auth">+11 (000) 111-11-11</a></li>
+    </ul>
+</header>
 
     <main>
 <!--section Hero plus buttom "order"-->
-        <section>
-            <h1>Effective Solutions <br>for Your Business</h1>
-            <button type="button">Order Service</button>
+        <section class="hero">
+            <h1 class="hero-title">Effective Solutions <br>for Your Business</h1>
+            <button type="button" class="btn-order">Order Service</button>
         </section>
 
 <!--Advantages (hidden)-->
-        <section>
+        <section class="section">
             <h2 hidden>Advantages</h2>
-            <ul>
+            <ul class="list">
                 <li>
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business
+                    <h3 class="section-name">Strategy</h3>
+                    <p class="text">Our goal is to identify the business
                         problem to walk away with the perfect and creative solution.
                     </p>
                 </li>
                 <li>
-                    <h3>Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price 
+                    <h3 class="section-name">Punctuality</h3>
+                    <p class="text">Bring the key message to the brand's audience for the best price 
                         within the shortest possible time.
                     </p>
                 </li>
                 <li>
-                    <h3>Diligence</h3>
-                    <p>Research and confirm brands that present the strongest digital 
+                    <h3 class="section-name">Diligence</h3>
+                    <p class="text">Research and confirm brands that present the strongest digital 
                         growth opportunities and minimize risk.
                     </p>
                 </li>
                 <li>
-                    <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. 
+                    <h3 class="section-name">Technologies</h3>
+                    <p class="text">Design practice focused on digital experiences. 
                         We bring forth a deep passion for problem-solving.
                     </p>
                 </li>
@@ -68,9 +68,9 @@
         </section>
 
 <!--What  we are doing-->
-        <section>
-            <h2>What we are doing</h2>
-            <ul>
+        <section class="section">
+            <h2 class="section-title">What we are doing</h2>
+            <ul class="list">
                 <li>
                     <img src="./images/whatwearedoing/desktopapps.jpg" width="360" alt="desktop application">
                 </li>
@@ -84,39 +84,39 @@
         </section>
 
 <!--Our team-->
-        <section>
-            <h2>Our team</h2>
-            <ul>
+        <section class="our-team section">
+            <h2 class="section-title">Our team</h2>
+            <ul class="list">
                 <li>
                     <img src="./images/team/markguerero.jpg" width="264" alt="Mark Guerero Product Designer ">
-                    <h3>Mark Guerero</h3>
-                    <p>Product Designer</p>
+                    <h3 class="section-name">Mark Guerero</h3>
+                    <p class="text">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/team/tomford.jpg" width="264" alt="Tom Ford Frontend Developer ">
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="section-name">Tom Ford</h3>
+                    <p class="text">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/team/camilagarcia.jpg" width="264" alt="Camila Garcia Marketing">
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
+                    <h3 class="section-name">Camila Garcia</h3>
+                    <p class="text">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/team/danielwilson.jpg" width="264" alt="Daniel Wilson UI Designer">
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
+                    <h3 class="section-name">Daniel Wilson</h3>
+                    <p class="text">UI Designer</p>
                 </li>
             </ul>
         </section>
 
     </main>
-<!--Footer without address!!!?-->
+<!--Footer without address!!!? change color in span to white-->
 
-    <footer>
+    <footer class="footer">
         <div>
-            <a href="./index.html">WebStudio</a>
-            <p>Increase the flow of customers and sales for your business with 
+            <a href="./index.html" class="webstudio"><span class="web">Web</span><span class="web-footer">Studio</span></a>
+            <p class="text-footer">Increase the flow of customers and sales for your business with 
                 digital marketing & growth solutions.
             </p>
         </div>
