@@ -88,7 +88,7 @@ text-align: center;
 /* button "Order" in Webstudio */
 
 .btn-order {
-    background-color: var(--acent-color);;
+    background-color: var(--acent-color);
     color: #FFFFFF;
     font-family: 'Roboto';
     font-style: normal;
